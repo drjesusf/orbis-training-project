@@ -3,6 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - Karen Rosario Gamarra Ramirez
 - Jesus David Ramirez Flores
+- Manuel Rojas
 
 1. ¿Qué es y para qué sirve GIT?
 	Es un controlador de versiones. 
@@ -24,5 +25,7 @@ Integrantes:
 	*Verificar si existen las llaves SSH.
 	*Genearar llaves y agrgarlas al Github
 	*Clonar el repositorio en la PC (Por orden crear una carpeta).
+	
+	
 	
 	
