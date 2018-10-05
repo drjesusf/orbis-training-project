@@ -1,0 +1,32 @@
+## Crear una imagen Docker en base a node:10.10.0-slim usando Dockerfile
+
+docker build -t kariev115/orbis-training-docker:0.1.0 .
+
+## Subir la imagen de docker al dockerhub
+
+docker push kariev115/orbis-training-docker:0.1.0
+ 
+## Usando docker tag, cambiar la versión de la imagen docker 0.1.0 por la versión 0.2.0
+
+docker tag kariev115/orbis-training-docker:0.1.0 kariev115/orbis-training-docker:0.2.0
+
+1. ¿Qué importancia tiene los tags en un proyecto?
+	Son importantes para controlar las versiones
+2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
+	Un tag normal te permite versionar y el tag anotado, permite darle una descripcion detallada 
+3. ¿Cómo se sube todos los tags de git que hay en mi local?
+	git push --tags
+4. ¿Es necesario loguearse cada vez que subo una imagen a dockerhub?
+	La primera vez es necesaria.
+5. ¿Qué es y para qué sirve docker?
+    Es una plataforma Open Source que brinda un estándar para desarrollar, implementar y ejecutar aplicaciones dentro de contenedores
+6. ¿Cuál es la diferencia entre docker y VirtualBox (virtualización)?
+    Docker comparte los recursos de tu So, mientras que Virtual Box crea un sistema operativo y tiene carcteisticas propias.
+7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
+    No.
+8. ¿Porqué debo anteponer el nombre de usuario en una imagen docker nueva?
+	Para identificar al propietario.
+9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
+    Se crea sin version.
+	
+
