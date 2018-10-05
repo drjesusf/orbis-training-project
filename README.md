@@ -55,5 +55,9 @@ Preguntas:
 8. ¿Cómo se comenta una linea de código en Dockerfile?	
     #
 
+2. Crear un contenedor exponiendo el puerto 80 a través del puerto 1080 al hacer docker run
+ docker run -d -p "1080:80" kariev115/orbis-training-docker:1.0.0
+ 
+docker-compose -f ./docker-compose.yml up
 
 
