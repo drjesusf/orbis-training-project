@@ -60,4 +60,13 @@ Preguntas:
  
 docker-compose -f ./docker-compose.yml up
 
-
+Preguntas:
+1. ¿Qué es NGINX?
+	Es un servidor Web/Proxy
+2. ¿Cómo expongo puertos en docker?
+     Usando el parametro -p 
+3. ¿Cómo especifico los puertos al levantar un contenedor (docker run)?
+     docker run -d -p "1080:80" kariev115/orbis-training-docker:1.0.0 
+4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
+    Es un proxy para redireccionar un puerto por otro.
+	
