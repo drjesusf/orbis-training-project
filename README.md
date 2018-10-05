@@ -29,4 +29,31 @@ docker tag kariev115/orbis-training-docker:0.1.0 kariev115/orbis-training-docker
 9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
     Se crea sin version.
 	
+Preguntas:
+
+1. ¿Cuál es la diferencia entre una imagen y un contenedor?
+   Una imagen es una especie de plantilla, una captura del estado de un contenedor, mientras que el contenedor es una instancia en ejecución de una imagen. 
+
+2. ¿Cómo listo las imágenes que hay en mi computadora?
+   docker images
+3. ¿Cómo salgo de un contenedor de docker?
+	exit
+4. ¿Se elimina el contenedor al salir de ella?
+    si
+5. ¿Cómo elimino un contenedor?
+    docker rm
+6. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
+    -i sirve para ejecutar el contenedor en modo interactivo.
+	-t sirve para indicar el nombre de la imagen y la versión
+	-rm eliminar contenedor
+7. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
+    1.-Ejecutar -> docker run -it kariev115/orbis-training-docker:0.2.0 bash
+	2.-Listar -> ls
+	3.-Ingresar a la carpeta -> cd app
+	4.-Listar -> ls
+	
+8. ¿Cómo se comenta una linea de código en Dockerfile?	
+    #
+
+
 
